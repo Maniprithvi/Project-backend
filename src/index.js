@@ -1,22 +1,22 @@
 const express = require("express");
 const cors  = require('cors');
-// swagger ui
+// swagger uit 
 
-const swaggerUi = require('swagger-ui-express');
-const swaggerJsdoc = require('swagger-jsdoc');
+// const swaggerUi = require('swagger-ui-express');
+// const swaggerJsdoc = require('swagger-jsdoc');
 // const swaggerDocument = require('./swagger.json');
 
-const options = {
-    definition: {
-      info: {
-        title: 'Ecom api',
-        version: '1.0.0',
-      },
-    },
-    apis: ['index.js'], // files containing annotations as above
-  };
+// const options = {
+//     definition: {
+//       info: {
+//         title: 'Ecom api',
+//         version: '1.0.0',
+//       },
+//     },
+//     apis: ['index.js'], // files containing annotations as above
+//   };
   
-  const swaggerDoc = swaggerJsdoc(options);
+  // const swaggerDoc = swaggerJsdoc(options);
 // console.log(openapiSpecification)
 
 const app=express();
